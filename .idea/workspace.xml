@@ -4,56 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1643ecc9-ccb0-47f5-b22c-2ad2cbcaa915" name="Changes" comment="hes">
+    <list default="true" id="1643ecc9-ccb0-47f5-b22c-2ad2cbcaa915" name="Changes" comment="ajustando la interface">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/Db/conectionsPsqlInterface.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/Db/conectionsPsqlInterface.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/Logs/LogsActivity.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/Logs/LogsActivity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/api/router/metrics/metricsRouter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/api/router/pagos/PagosRouter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/api/router/pagos/pagosWalletRouter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/api/router/pedidos/pedidosRouter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/api/router/planDeCuentas/planDeCuentasRouter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/api/router/visitas/visitantesRouter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/api/router/visitas/visitasRouter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/api/router/wallet/walletRouter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/PlanDeCuentas/PlanDeCuentas.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/amenidades/ConsumoAmenidadesEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/amenidades/amenidadesEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/amenidades/amenidadesOficinas.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/metric/coffeshop/CoffeshopMetrictEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/oficinas/arrendamientoEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/oficinas/contratoOficinasEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/oficinas/historicoOcupanteEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/oficinas/oficinaEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/pagos/abonosEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/pagos/pagosEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/productos/ProductosOficinasEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/productos/productosEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/tazaDollar/tasaEntity.py" beforeDir="false" afterPath="$PROJECT_DIR$/fron-end.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/visitas/visitasEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/wallet/como usar inmterfaces en python" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/wallet/walletEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Implements/Visitas/VisitasDAO.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Implements/finance/tasaDollarDAO.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Implements/metric/coffeshop/CoffeshopMetricDAO.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Implements/planDeCuenta/planDeCuentaDAO.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Implements/visitantes/token" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Implements/visitantes/visitantesDAO.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Implements/wallet/walletDAO.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Interface/PlandeCuenta/IplanDeCuenta.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Interface/clients/IClientes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Interface/clients/IdeudaClientes.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core/Interface/config/DataBase/conectionsInterface.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/Interface/config/DataBase/conectionsInterface.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Interface/metric/coffeshop/ICoffeshopMetric.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Interface/ordenes/Iordenes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Interface/ordenes/git-error-1703689072243" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Interface/pagos/Ipagos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Interface/pagos/IpagosWallet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Interface/pedidos/Ipedidos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Interface/productos/Iproductos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Interface/visitas/Ivisitantes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Interface/visitas/Ivisitas.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Interface/wallet/Iwallet.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703887994065</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ajustando la interface">
+      <option name="closed" value="true" />
+      <created>1704130421438</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704130421438</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +165,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hes" />
-    <option name="LAST_COMMIT_MESSAGE" value="hes" />
+    <MESSAGE value="ajustando la interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajustando la interface" />
   </component>
 </project>
