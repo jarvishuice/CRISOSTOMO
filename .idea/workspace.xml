@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1643ecc9-ccb0-47f5-b22c-2ad2cbcaa915" name="Changes" comment="ajustando la interface">
-      <change afterPath="$PROJECT_DIR$/Logs/systemLog.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/config/Logs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/config/lOGS/Logs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/config/lOGS/__init__.py" afterDir="false" />
+    <list default="true" id="1643ecc9-ccb0-47f5-b22c-2ad2cbcaa915" name="Changes" comment="agregando methodos en ;los logs para diferenciar el nivel , aligual qye la carta test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/Logs/LogsActivity.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/Logs/LogsActivity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/router/pahtsMunay.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/router/pahtsMunay.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704130932177</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="agregando methodos en ;los logs para diferenciar el nivel , aligual qye la carta test">
+      <option name="closed" value="true" />
+      <created>1704218841551</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704218841551</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,7 +216,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hes" />
     <MESSAGE value="ajustando la interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajustando la interface" />
+    <MESSAGE value="agregando methodos en ;los logs para diferenciar el nivel , aligual qye la carta test" />
+    <option name="LAST_COMMIT_MESSAGE" value="agregando methodos en ;los logs para diferenciar el nivel , aligual qye la carta test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
