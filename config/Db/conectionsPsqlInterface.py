@@ -17,8 +17,7 @@ class ConectionsPsqlInterface(ConectionDbInterface):
         try:
             self.conn = psycopg2.connect(CredentialDb().getDatos())
 
-            return ResponseInternal.responseInternal(status=True, mesagge="Conexión exitosa a la base de datos",
-                                                     response='conecion exitosa')
+            return ResponseInternal.responseInternal(status=True, mesagge="Conexión exitosa a la base de datos",response='conecion exitosa')
         except psycopg2.OperationalError as err:
             return ResponseInternal.responseInternal(status=False,
                                                      mesagge=f"{self.ERROR} Error en la conexion a la base de datos {err}",
