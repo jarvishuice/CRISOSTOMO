@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="folders">
+      <list>
+        <folderState>
+          <option name="id" value="f10f06c4-06e9-4754-8c85-cd8374790173" />
+          <option name="name" value="Prueba" />
+          <option name="requests">
+            <list>
+              <requestState>
+                <option name="body">
+                  <bodyState>
+                    <option name="raw" value="{&#10;  &quot;id&quot;: 517,&#10;  &quot;nombre&quot;: &quot;nombre_gy03&quot;,&#10;  &quot;urlimagen&quot;: &quot;urlimagen_BZ64&quot;,&#10;  &quot;precio&quot;: 65.7,&#10;  &quot;cantidad&quot;: 765,&#10;  &quot;tipo&quot;: &quot;tipo_Qh28&quot;,&#10;  &quot;almacen&quot;: null&#10;}" />
+                    <option name="type" value="JSON" />
+                  </bodyState>
+                </option>
+                <option name="description" value="yy" />
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Content-Type" />
+                      <option name="value" value="application/json" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="ab6bd53c-4a90-4ee8-8048-dcd3dbeeb690" />
+                <option name="method" value="POST" />
+                <option name="name" value="New Request" />
+                <option name="url" value="http://191.97.17.26:8010/MUNAY/nest/Espacios/Productos/filterCategoria/oficinas/cfm" />
+              </requestState>
+            </list>
+          </option>
+          <option name="sortWeight" value="1000000" />
+          <option name="syncProperties">
+            <synchronizationPropertiesState>
+              <option name="folderPath" value="$PROJECT_DIR$/.jetclient" />
+            </synchronizationPropertiesState>
+          </option>
+        </folderState>
+      </list>
+    </option>
+    <option name="id" value="029efffb-f585-4350-8665-4554be7217f3" />
+  </component>
+</project>
