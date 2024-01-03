@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1643ecc9-ccb0-47f5-b22c-2ad2cbcaa915" name="Changes" comment="agregando los paquetes necesarios para la multimedia">
+      <change afterPath="$PROJECT_DIR$/sever/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +60,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Docker.sever/Dockerfile.executor": "Run",
     "Python.Logs.executor": "Run",
     "Python.implementsPrueba.executor": "Run",
     "Python.main.executor": "Run",
@@ -66,7 +68,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/home/jarvis/PycharmProjects/CRISOSTOMO/core/test",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Python"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -81,7 +83,7 @@
       <recent name="$PROJECT_DIR$/test/config/lOGS" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Docker.sever/Dockerfile">
     <configuration name="Logs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CRISOSTOMO" />
       <option name="ENV_FILES" value="" />
@@ -126,8 +128,23 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sever/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="fast" />
+          <option name="containerName" value="d" />
+          <option name="sourceFilePath" value="sever/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.sever/Dockerfile" />
         <item itemvalue="Python.Logs" />
       </list>
     </recent_temporary>
@@ -252,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704309182030</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="agregando los paquetes necesarios para la multimedia">
+      <option name="closed" value="true" />
+      <created>1704310211375</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1704310211375</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
