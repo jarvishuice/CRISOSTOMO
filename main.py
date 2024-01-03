@@ -3,7 +3,11 @@ from typing import Annotated
 from fastapi import FastAPI,Depends
 from fastapi.security import OAuth2PasswordBearer
 from fastapi.middleware.cors import CORSMiddleware
-from controllers.api.router.Ordenes.OrdenesRouter import Ordenes
+from controllers.api.router.libros.librosRouter import Libros
+from controllers.api.router.category.categoryRouter import Categoria
+from controllers.api.router.autor.authorRouter import Autor
+from controllers.api.router.reaccion.reaccionRouter import Reaccion
+"""from controllers.api.router.Ordenes.OrdenesRouter import Ordenes
 from controllers.api.router.clientes.clientesRouter import Clientes
 from controllers.api.router.pedidos.pedidosRouter import Pedidos
 from controllers.api.router.wallet.walletRouter import Wallet
@@ -22,12 +26,12 @@ from controllers.api.router.reports.coffeshop.cierreROUTERByFECHA import ReportC
 from controllers.api.router.metrics.metricsRouter import Metric
 from controllers.api.router.visitas.visitantesRouter import Visitantes
 from controllers.api.router.visitas.visitasRouter import Visitas
-from controllers.api.router.espacios.espaciosRouter import ESPACIOS
+from controllers.api.router.espacios.espaciosRouter import ESPACIOS"""
 origins = ["*"]
 autenticacion=OAuth2PasswordBearer(tokenUrl="token")
 
 
-app =FastAPI(title="Nest Coworking",version="2.1",openapi_url="/localhost",logger="info",logs_paths="/home/munay/MUNAYSYSTEM2.1DAO/APP/")
+app =FastAPI(title="Crisostomo ",version="1.0",openapi_url="/localhost",logger="info",logs_paths="/home/munay/MUNAYSYSTEM2.1DAO/APP/")
 
 app.add_middleware(
     CORSMiddleware,
@@ -36,7 +40,11 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-app.include_router(ESPACIOS)
+app.include_router(Libros)
+app.include_router(Categoria)
+app.include_router(Autor)
+app.include_router(Reaccion)
+"""app.include_router(ESPACIOS)
 app.include_router(Visitantes)
 app.include_router(Visitas)
 app.include_router(Ordenes)
@@ -62,3 +70,4 @@ async def test():
 @app.get("/items/")
 async def readToken(token:Annotated[str,Depends(autenticacion)]):
     return token    
+"""

@@ -4,33 +4,180 @@
     <option name="folders">
       <list>
         <folderState>
-          <option name="id" value="f10f06c4-06e9-4754-8c85-cd8374790173" />
-          <option name="name" value="Prueba" />
-          <option name="requests">
+          <option name="description" value="contiene todo los test para validar durante el desarrollo " />
+          <option name="folders">
             <list>
-              <requestState>
-                <option name="body">
-                  <bodyState>
-                    <option name="raw" value="{&#10;  &quot;id&quot;: 517,&#10;  &quot;nombre&quot;: &quot;nombre_gy03&quot;,&#10;  &quot;urlimagen&quot;: &quot;urlimagen_BZ64&quot;,&#10;  &quot;precio&quot;: 65.7,&#10;  &quot;cantidad&quot;: 765,&#10;  &quot;tipo&quot;: &quot;tipo_Qh28&quot;,&#10;  &quot;almacen&quot;: null&#10;}" />
-                    <option name="type" value="JSON" />
-                  </bodyState>
-                </option>
-                <option name="description" value="yy" />
-                <option name="headers">
+              <folderState>
+                <option name="description" value="Conttine los test realizado en el desarrolllo " />
+                <option name="id" value="6128d1ea-9dde-49d5-96d8-4a7505e9d313" />
+                <option name="name" value="Libros" />
+                <option name="requests">
                   <list>
-                    <headerState>
-                      <option name="key" value="Content-Type" />
-                      <option name="value" value="application/json" />
-                    </headerState>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="type" value="BINARY_FILE" />
+                        </bodyState>
+                      </option>
+                      <option name="description" value="post para crear un nuevo libro en el sistema " />
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Content-Type" />
+                            <option name="value" value="application/octet-stream" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="ab6bd53c-4a90-4ee8-8048-dcd3dbeeb690" />
+                      <option name="method" value="POST" />
+                      <option name="name" value="Crear Libro " />
+                      <option name="url" value="http://0.0.0.0:8010/crisostomo/Libros/" />
+                    </requestState>
+                    <requestState>
+                      <option name="description" value="extrae todos los libros " />
+                      <option name="id" value="6bd115c2-7a89-47b9-9d37-f1d9102ac816" />
+                      <option name="method" value="GET" />
+                      <option name="name" value="get All libros" />
+                      <option name="testScript" value="h" />
+                      <option name="url" value="http://0.0.0.0:8010/crisostomo/Libros/getAll" />
+                    </requestState>
                   </list>
                 </option>
-                <option name="id" value="ab6bd53c-4a90-4ee8-8048-dcd3dbeeb690" />
-                <option name="method" value="POST" />
-                <option name="name" value="New Request" />
-                <option name="url" value="http://191.97.17.26:8010/MUNAY/nest/Espacios/Productos/filterCategoria/oficinas/cfm" />
-              </requestState>
+                <option name="sortWeight" value="1000000" />
+              </folderState>
+              <folderState>
+                <option name="id" value="93d5db98-495d-4eae-8fb1-0e6bd6c609c8" />
+                <option name="name" value="categorias " />
+                <option name="requests">
+                  <list>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="raw" value="{&#10;  &quot;id&quot;:0,&#10;  &quot;nombre&quot;: &quot;test1&quot;&#10;}" />
+                          <option name="type" value="JSON" />
+                        </bodyState>
+                      </option>
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Content-Type" />
+                            <option name="value" value="application/json" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="15662c73-6731-450c-a14b-a7341d97ae44" />
+                      <option name="method" value="POST" />
+                      <option name="name" value="crearCategoria" />
+                      <option name="url" value="http://0.0.0.0:8010/crisostomo/Categorias/" />
+                    </requestState>
+                    <requestState>
+                      <option name="id" value="a0eae32f-2e56-44be-8107-c1696a146537" />
+                      <option name="method" value="GET" />
+                      <option name="name" value="getAllCategory" />
+                      <option name="url" value="http://0.0.0.0:8010/crisostomo/Categorias/getAll" />
+                    </requestState>
+                    <requestState>
+                      <option name="id" value="0400b7c5-3060-4a49-8053-1a654b322c1e" />
+                      <option name="method" value="GET" />
+                      <option name="name" value="searchCaqtegoria" />
+                      <option name="url" value="http://0.0.0.0:8010/crisostomo/Categorias/search/j" />
+                    </requestState>
+                  </list>
+                </option>
+                <option name="sortWeight" value="2000000" />
+              </folderState>
+              <folderState>
+                <option name="id" value="de8e9a28-80c6-4013-8676-0bfe7929a68d" />
+                <option name="name" value="autores" />
+                <option name="requests">
+                  <list>
+                    <requestState>
+                      <option name="id" value="e6ec7cee-0571-4543-9a9d-af6010ccfc9a" />
+                      <option name="method" value="GET" />
+                      <option name="name" value="getAllAutores" />
+                      <option name="url" value="http://0.0.0.0:8010/crisostomo/Autor/getAll" />
+                    </requestState>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="raw" value="{&#10;    &quot;id&quot;: &quot;jj&quot;,&#10;    &quot;nombre&quot;: &quot;jarvis&quot;,&#10;    &quot;apellido&quot;: &quot;huice&quot;,&#10;    &quot;cantidadLibros&quot;: 0&#10;  }" />
+                          <option name="type" value="JSON" />
+                        </bodyState>
+                      </option>
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Content-Type" />
+                            <option name="value" value="application/json" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="79c411ea-f194-44dd-b85c-9303d04e5b0e" />
+                      <option name="method" value="POST" />
+                      <option name="name" value="crearAutor" />
+                      <option name="url" value="http://0.0.0.0:8010/crisostomo/Autor/" />
+                    </requestState>
+                    <requestState>
+                      <option name="id" value="fa27a477-be5c-4b7d-bf28-772c2b72fb24" />
+                      <option name="method" value="GET" />
+                      <option name="name" value="BuscarAutor" />
+                      <option name="url" value="http://0.0.0.0:8010/crisostomo/Autor/search/h" />
+                    </requestState>
+                    <requestState>
+                      <option name="id" value="0d84366e-6554-49c6-bbf1-0d7837dccb70" />
+                      <option name="method" value="PUT" />
+                      <option name="name" value="ActualizarCantidad de libros" />
+                      <option name="url" value="http://0.0.0.0:8010/crisostomo/Autor/actualizar/Cantidad/Libros/" />
+                    </requestState>
+                  </list>
+                </option>
+                <option name="sortWeight" value="3000000" />
+              </folderState>
+              <folderState>
+                <option name="id" value="11fc935f-88c8-4a94-af01-bec19e907066" />
+                <option name="name" value="reaccion" />
+                <option name="requests">
+                  <list>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="raw" value="{&#10;  &quot;idLibro&quot;: &quot;1704422950.7009282&quot;,&#10;  &quot;idUser&quot;: &quot;27475074&quot;,&#10;  &quot;fecha&quot;: &quot;111&quot;&#10;}" />
+                          <option name="type" value="JSON" />
+                        </bodyState>
+                      </option>
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Content-Type" />
+                            <option name="value" value="application/json" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="a0d099eb-4ceb-4e2b-aae6-a58f34da73d8" />
+                      <option name="method" value="POST" />
+                      <option name="name" value="crearReaccion" />
+                      <option name="url" value="http://0.0.0.0:8010/crisostomo/Reaccion/" />
+                    </requestState>
+                    <requestState>
+                      <option name="id" value="86008c00-54d0-4331-a829-5219851844ea" />
+                      <option name="method" value="GET" />
+                      <option name="name" value="getAll" />
+                      <option name="url" value="http://0.0.0.0:8010/crisostomo/Reaccion/getAll" />
+                    </requestState>
+                    <requestState>
+                      <option name="id" value="a623bf9d-2147-4fd6-b42f-6bd05b3325d0" />
+                      <option name="method" value="GET" />
+                      <option name="name" value="filterReaccionByLibro" />
+                      <option name="url" value="http://0.0.0.0:8010/crisostomo/Reaccion/filter/Libro/1704422950.7009282" />
+                    </requestState>
+                  </list>
+                </option>
+                <option name="sortWeight" value="4000000" />
+              </folderState>
             </list>
           </option>
+          <option name="id" value="f10f06c4-06e9-4754-8c85-cd8374790173" />
+          <option name="name" value="crisostomo_dev" />
           <option name="sortWeight" value="1000000" />
           <option name="syncProperties">
             <synchronizationPropertiesState>
@@ -41,5 +188,10 @@
       </list>
     </option>
     <option name="id" value="029efffb-f585-4350-8665-4554be7217f3" />
+    <option name="runnerIdsHistory">
+      <map>
+        <entry key="2f18589b-bbdf-4ba7-a5d6-e0dac1773a73" value="86008c00-54d0-4331-a829-5219851844ea,a0d099eb-4ceb-4e2b-aae6-a58f34da73d8,a623bf9d-2147-4fd6-b42f-6bd05b3325d0|" />
+      </map>
+    </option>
   </component>
 </project>

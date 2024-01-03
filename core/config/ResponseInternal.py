@@ -4,7 +4,7 @@ class ResponseInternal():
     def __init__(self) -> None:
         pass
     @staticmethod
-    def responseInternal(status:bool,mesagge:str,response):
+    def responseInternal(status: bool, mesagge: str, response: object) -> object:
         """
         Method that allows responding to an internal system request
         Args:

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1643ecc9-ccb0-47f5-b22c-2ad2cbcaa915" name="Changes" comment="agregando los paquetes necesarios para la multimedia">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1643ecc9-ccb0-47f5-b22c-2ad2cbcaa915" name="Changes" comment="luchando cpon docker&#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,14 +13,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Unit Test" />
         <option value="Python Stub" />
+        <option value="Python Unit Test" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="jarvishuice &lt;jarvis.realg@gmal.com&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -39,11 +44,8 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///folder-pre-request-script-f10f06c4.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///folder-test-script-f10f06c4.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///pre-request-script-ab6bd53c.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.txt" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/builtins.pyi" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///test-script-ab6bd53c.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -57,27 +59,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Logs.executor": "Run",
-    "Python.implementsPrueba.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/jarvis/PycharmProjects/CRISOSTOMO/core/test",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Python"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.sever/Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Logs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.categoryDAO.executor&quot;: &quot;Run&quot;,
+    &quot;Python.implementsPrueba.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/jarvis/PycharmProjects/CRISOSTOMO/documents/BASE DE DATOS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Markdown&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/documents/BASE DE DATOS" />
+      <recent name="$PROJECT_DIR$/core/Implements" />
       <recent name="$PROJECT_DIR$/core/test" />
       <recent name="$PROJECT_DIR$/core/Interface" />
-      <recent name="$PROJECT_DIR$/core/Implements" />
       <recent name="$PROJECT_DIR$/core/config" />
-      <recent name="$PROJECT_DIR$/core" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/Entities/autor" />
+      <recent name="$PROJECT_DIR$/test/core" />
       <recent name="$PROJECT_DIR$/test/config/lOGS" />
     </key>
   </component>
@@ -126,8 +137,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="container/Dockerfile: Compose Deployment" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="fast" />
+          <option name="containerName" value="d" />
+          <option name="sourceFilePath" value="container/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.container/Dockerfile: Compose Deployment" />
         <item itemvalue="Python.Logs" />
       </list>
     </recent_temporary>
@@ -252,15 +280,78 @@
       <option name="project" value="LOCAL" />
       <updated>1704309182030</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="agregando los paquetes necesarios para la multimedia">
+      <option name="closed" value="true" />
+      <created>1704310211375</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1704310211375</updated>
+    </task>
+    <task id="LOCAL-00015" summary="luchando cpon docker">
+      <option name="closed" value="true" />
+      <created>1704311520247</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1704311520247</updated>
+    </task>
+    <task id="LOCAL-00016" summary="luchando cpon docker">
+      <option name="closed" value="true" />
+      <created>1704715637454</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1704715637454</updated>
+    </task>
+    <task id="LOCAL-00017" summary="luchando cpon docker&#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;">
+      <option name="closed" value="true" />
+      <created>1704715658768</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1704715658768</updated>
+    </task>
+    <task id="LOCAL-00018" summary="luchando cpon docker&#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;">
+      <option name="closed" value="true" />
+      <created>1704715686834</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1704715686834</updated>
+    </task>
+    <task id="LOCAL-00019" summary="luchando cpon docker&#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;">
+      <option name="closed" value="true" />
+      <created>1704715721682</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1704715721682</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -268,13 +359,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hes" />
-    <MESSAGE value="ajustando la interface" />
     <MESSAGE value="agregando methodos en ;los logs para diferenciar el nivel , aligual qye la carta test" />
     <MESSAGE value="Subiendo documentacion" />
     <MESSAGE value="probando .pyi" />
-    <MESSAGE value="agregando documentacion" />
     <MESSAGE value="agregando los paquetes necesarios para la multimedia" />
-    <option name="LAST_COMMIT_MESSAGE" value="agregando los paquetes necesarios para la multimedia" />
+    <MESSAGE value="agregando documentacion" />
+    <MESSAGE value="ajustando la interface" />
+    <MESSAGE value="ajustando la fgd" />
+    <MESSAGE value="ajustzazazando la fgd" />
+    <MESSAGE value="luchando cpon docker" />
+    <MESSAGE value="luchando cpon docker&#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="luchando cpon docker&#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -283,6 +378,24 @@
           <url>file:///usr/lib/python3.11/asyncio/base_events.py</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/Implements/ordenes/ordenesDAO.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/Implements/libros/librosDAO.py</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/config/Db/conectionsPsqlInterface.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/Entities/libros/librosEntity.py</url>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

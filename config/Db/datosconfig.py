@@ -7,9 +7,9 @@ class CredentialDb():
     host=None
     port=None
     def __init__(self):
-        self.user='operaciones'
-        self.db='munay'
-        self.password='V3n3zu3l42023**'
+        self.user='desarrollo'
+        self.db='crisostomo'
+        self.password='1708'
         self.host='0.0.0.0'
         self.port='5432'
     def getDatos(self):
