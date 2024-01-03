@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1643ecc9-ccb0-47f5-b22c-2ad2cbcaa915" name="Changes" comment="probando .pyi">
+    <list default="true" id="1643ecc9-ccb0-47f5-b22c-2ad2cbcaa915" name="Changes" comment="agregando documentacion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/Db/conectionsPsqlInterface.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/Db/conectionsPsqlInterface.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/config/ResponseInternal.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/config/ResponseInternal.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,18 +57,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Logs.executor": "Run",
-    "Python.implementsPrueba.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/jarvis/PycharmProjects/CRISOSTOMO/core/test",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Logs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.implementsPrueba.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/jarvis/PycharmProjects/CRISOSTOMO/core/test&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/core/test" />
@@ -238,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704231093158</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="agregando documentacion">
+      <option name="closed" value="true" />
+      <created>1704232740497</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1704232740497</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,7 +264,8 @@
     <MESSAGE value="agregando methodos en ;los logs para diferenciar el nivel , aligual qye la carta test" />
     <MESSAGE value="Subiendo documentacion" />
     <MESSAGE value="probando .pyi" />
-    <option name="LAST_COMMIT_MESSAGE" value="probando .pyi" />
+    <MESSAGE value="agregando documentacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="agregando documentacion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
