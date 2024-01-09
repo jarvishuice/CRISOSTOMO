@@ -1,4 +1,4 @@
-# Sentencias para generar las tablas necesarias para la base de datos
+# Sentencias para generar las tablas necesarias para la base de datos y  valores por defecto de algunas tablas 
 
 ```sql
 -- public.status definition
@@ -172,4 +172,20 @@ CREATE TABLE public.reacciones (
 
 ALTER TABLE public.reacciones OWNER TO desarrollo;
 GRANT ALL ON TABLE public.reacciones TO desarrollo;
+/**********************
+ * valoreds de status *
+ **********************/
+INSERT INTO public.status (id, nombre) VALUES(1, 'activo');
+INSERT INTO public.status (id, nombre) VALUES(2, 'inactivo');
+INSERT INTO public.status (id, nombre) VALUES(3, 'bajo revision');
+INSERT INTO public.status (id, nombre) VALUES(4, 'declinado');
+
+
+/****************************
+ * valoreds de tipos_usuario*
+ ****************************/
+INSERT INTO public.tipos_usuarios (id, nombre, descripcion) VALUES(1, 'Estudiante', NULL);
+INSERT INTO public.tipos_usuarios (id, nombre, descripcion) VALUES(2, 'Profesor', NULL);
+INSERT INTO public.tipos_usuarios (id, nombre, descripcion) VALUES(3, 'Super Usuario', NULL);
+
 ```

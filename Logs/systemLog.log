@@ -8534,3 +8534,89 @@ DETAIL:  La llave (id_libro)=(1) no está presente en la tabla «libros».
  [0;36m[2024-01-07 00:45:19.014075]:[0;32mse encontraron [159] reacciones 
  [0;36m[2024-01-07 00:45:19.014898]:[0;33m Finalizada la ejecucion del core reaccion  en la implementacion getAll
  [0;36m[2024-01-07 00:45:19.016473]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-01-15 15:55:50.664236]:[0;32mConexión exitosa a la base de datos
+ [0;36m[2024-01-15 15:55:50.669627]:[0;31m se ha presentado un error de onmtegridad e la base de datos detail [inserción o actualización en la tabla «libros» viola la llave foránea «libros_fk_autor»
+DETAIL:  La llave (id_autor)=(string) no está presente en la tabla «autores».
+]
+ [0;36m[2024-01-15 15:55:50.669727]:[0;32mPuede que estes registrando un libro cuyos datos ya se encuentranregistrado !!
+ [0;36m[2024-01-15 15:55:50.669955]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-01-15 15:56:04.936418]:[0;32mConexión exitosa a la base de datos
+ [0;36m[2024-01-15 15:56:04.938617]:[0;31m se ha presentado un error de onmtegridad e la base de datos detail [inserción o actualización en la tabla «libros» viola la llave foránea «libros_fk_autor»
+DETAIL:  La llave (id_autor)=(string) no está presente en la tabla «autores».
+]
+ [0;36m[2024-01-15 15:56:04.938687]:[0;32mPuede que estes registrando un libro cuyos datos ya se encuentranregistrado !!
+ [0;36m[2024-01-15 15:56:04.938833]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-01-15 15:57:13.537788]:[0;32mConexión exitosa a la base de datos
+ [0;36m[2024-01-15 15:57:13.542694]:[0;31m se ha presentado un error de onmtegridad e la base de datos detail [inserción o actualización en la tabla «libros» viola la llave foránea «libros_fk_editorial»
+DETAIL:  La llave (id_editorial)=(1) no está presente en la tabla «editoriales».
+]
+ [0;36m[2024-01-15 15:57:13.542834]:[0;32mPuede que estes registrando un libro cuyos datos ya se encuentranregistrado !!
+ [0;36m[2024-01-15 15:57:13.543613]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-01-15 15:57:39.545513]:[0;32mConexión exitosa a la base de datos
+ [0;36m[2024-01-15 15:57:39.549798]:[0;31m se ha presentado un error de onmtegridad e la base de datos detail [inserción o actualización en la tabla «libros» viola la llave foránea «libros_fk_user_publish»
+DETAIL:  La llave (id_user_publish)=(1) no está presente en la tabla «user».
+]
+ [0;36m[2024-01-15 15:57:39.549893]:[0;32mPuede que estes registrando un libro cuyos datos ya se encuentranregistrado !!
+ [0;36m[2024-01-15 15:57:39.550101]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-01-15 15:57:58.812273]:[0;32mConexión exitosa a la base de datos
+ [0;36m[2024-01-15 15:57:58.818570]:[0;32mLibro publicado de manera exitosa bajo el id [1705348678.812342]
+ [0;36m[2024-01-15 15:57:58.822159]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-01-15 16:22:46.937470]:[0;32mConexión exitosa a la base de datos
+ [0;36m[2024-01-15 16:22:46.943376]:[0;32mAutor registrado con exito{'id': '1705350166.9391747', 'nombre': 'telo meto', 'apellido': 'ssddsad', 'cantidadLibros': 0}
+ [0;36m[2024-01-15 16:22:46.943555]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-01-15 16:24:31.341709]:[0;32mConexión exitosa a la base de datos
+ [0;36m[2024-01-15 16:24:31.343702]:[0;32mAutor registrado con exito{'id': '1705350271.3417854', 'nombre': 'telo meto', 'apellido': 'ssddsad', 'cantidadLibros': 0}
+ [0;36m[2024-01-15 16:24:31.343919]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-01-15 22:31:31.757685]:[0;32mConexión exitosa a la base de datos
+ [0;36m[2024-01-15 22:31:31.791696]:[0;31m se ha presentado un error de onmtegridad e la base de datos detail [inserción o actualización en la tabla «libros» viola la llave foránea «libros_fk»
+DETAIL:  La llave (id_status)=(2) no está presente en la tabla «status».
+]
+ [0;36m[2024-01-15 22:31:31.791905]:[0;32mPuede que estes registrando un libro cuyos datos ya se encuentranregistrado !!
+ [0;36m[2024-01-15 22:31:31.792399]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-01-15 22:32:14.776876]:[0;32mConexión exitosa a la base de datos
+ [0;36m[2024-01-15 22:32:14.779754]:[0;31m se ha presentado un error de onmtegridad e la base de datos detail [inserción o actualización en la tabla «libros» viola la llave foránea «libros_fk»
+DETAIL:  La llave (id_status)=(2) no está presente en la tabla «status».
+]
+ [0;36m[2024-01-15 22:32:14.779897]:[0;32mPuede que estes registrando un libro cuyos datos ya se encuentranregistrado !!
+ [0;36m[2024-01-15 22:32:14.781400]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-01-15 22:32:53.414822]:[0;32mConexión exitosa a la base de datos
+ [0;36m[2024-01-15 22:32:53.420289]:[0;32m lectura de autors realizadsa con exito se encontraron [26] autores
+ [0;36m[2024-01-15 22:32:53.421115]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-01-15 22:33:29.993121]:[0;32mConexión exitosa a la base de datos
+ [0;36m[2024-01-15 22:33:30.002215]:[0;32mLibro publicado de manera exitosa bajo el id [1705372409.9932086]
+ [0;36m[2024-01-15 22:33:30.002482]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-01-15 22:33:48.238967]:[0;32mConexión exitosa a la base de datos
+ [0;36m[2024-01-15 22:33:48.240799]:[0;31m se ha presentado un error de onmtegridad e la base de datos detail [llave duplicada viola restricción de unicidad «libros_un»
+DETAIL:  Ya existe la llave (archivo_nombre)=(preCierrecfm2023-09-11.pdf).
+]
+ [0;36m[2024-01-15 22:33:48.240875]:[0;32mPuede que estes registrando un libro cuyos datos ya se encuentranregistrado !!
+ [0;36m[2024-01-15 22:33:48.241045]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-01-15 22:33:58.166521]:[0;32mConexión exitosa a la base de datos
+ [0;36m[2024-01-15 22:33:58.168824]:[0;31m se ha presentado un error de onmtegridad e la base de datos detail [llave duplicada viola restricción de unicidad «libros_un»
+DETAIL:  Ya existe la llave (archivo_nombre)=(preCierrecfm2023-09-11.pdf).
+]
+ [0;36m[2024-01-15 22:33:58.168948]:[0;32mPuede que estes registrando un libro cuyos datos ya se encuentranregistrado !!
+ [0;36m[2024-01-15 22:33:58.172768]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-01-15 22:34:48.054643]:[0;32mConexión exitosa a la base de datos
+ [0;36m[2024-01-15 22:34:48.056511]:[0;31m se ha presentado un error de onmtegridad e la base de datos detail [llave duplicada viola restricción de unicidad «libros_un»
+DETAIL:  Ya existe la llave (archivo_nombre)=(preCierrecfm2023-09-11.pdf).
+]
+ [0;36m[2024-01-15 22:34:48.056634]:[0;32mPuede que estes registrando un libro cuyos datos ya se encuentranregistrado !!
+ [0;36m[2024-01-15 22:34:48.058022]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-01-15 22:35:37.659247]:[0;32mConexión exitosa a la base de datos
+ [0;36m[2024-01-15 22:35:37.664601]:[0;32mLibro publicado de manera exitosa bajo el id [1705372537.6593554]
+ [0;36m[2024-01-15 22:35:37.665114]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-01-15 22:49:17.274212]:[0;32mk
+ [0;36m[2024-01-15 22:56:30.665146]:[0;32mConexión exitosa a la base de datos
+ [0;36m[2024-01-15 22:56:30.679600]:[0;32mLibro publicado de manera exitosa bajo el id [1705373790.665283]
+ [0;36m[2024-01-15 22:56:30.682120]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-01-15 22:59:32.937538]:[0;32mConexión exitosa a la base de datos
+ [0;36m[2024-01-15 22:59:32.944560]:[0;32mLibro publicado de manera exitosa bajo el id [1705373972.9376223]
+ [0;36m[2024-01-15 22:59:32.944906]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-01-16 10:07:05.711219]:[0;32mConexión exitosa a la base de datos
+ [0;36m[2024-01-16 10:07:05.739490]:[0;32mEXITO AL LEER TODOS LOS LIBROS SE ENCONTRARON [12] libros  
+ [0;36m[2024-01-16 10:07:05.739738]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-01-16 10:07:30.786450]:[0;32mConexión exitosa a la base de datos
+ [0;36m[2024-01-16 10:07:30.804953]:[0;32mse encontraron [159] reacciones 
+ [0;36m[2024-01-16 10:07:30.805027]:[0;33m Finalizada la ejecucion del core reaccion  en la implementacion getAll
+ [0;36m[2024-01-16 10:07:30.805172]:[0;32mDesconexión exitosa de la base de datos

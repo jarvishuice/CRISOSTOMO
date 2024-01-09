@@ -1,5 +1,5 @@
 import datetime
-from config.router.pahtsMunay import PathMunay
+from config.router.PathsSystem import PathSystem
 
 
 class Logs :
@@ -11,7 +11,7 @@ class Logs :
     @staticmethod
     def WirterTask(mensaje):
         try:
-            with open(f'{PathMunay().getLogs()}systemLog.log', 'a') as archivo :
+            with open(f'{PathSystem().getLogs()}systemLog.log', 'a') as archivo :
                 archivo.write(f' \033[0;36m[{datetime.datetime.now()}]:\033[0;32m{mensaje}\n')
                 archivo.close()
         except TypeError as error:
@@ -27,7 +27,7 @@ class Logs :
 
         '''
         try:
-            with open(f'{PathMunay().getLogs()}systemLog.log', 'a') as archivo :
+            with open(f'{PathSystem().getLogs()}systemLog.log', 'a') as archivo :
                 archivo.write(f' \033[0;36m[{datetime.datetime.now()}]:\033[0;33m {mensaje}\n')
                 archivo.close()
         except TypeError as error:
@@ -35,7 +35,7 @@ class Logs :
     @staticmethod
     def Error( mensaje:str):
         try:
-            with open(f'{PathMunay().getLogs()}systemLog.log', 'a') as archivo :
+            with open(f'{PathSystem().getLogs()}systemLog.log', 'a') as archivo :
                 archivo.write(f' \033[0;36m[{datetime.datetime.now()}]:\033[0;31m {mensaje}\n')
                 archivo.close()
         except TypeError as error:
