@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1643ecc9-ccb0-47f5-b22c-2ad2cbcaa915" name="Changes" comment="luchando cpon docker&#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;" />
+    <list default="true" id="1643ecc9-ccb0-47f5-b22c-2ad2cbcaa915" name="Changes" comment="ddd&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;&#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prueba.py" beforeDir="false" afterPath="$PROJECT_DIR$/prueba.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +29,12 @@
       </list>
     </option>
     <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
@@ -44,7 +53,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.txt" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.txt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/builtins.pyi" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -73,6 +82,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;
   },
   &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+    ],
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
       &quot;Markdown&quot;
     ]
@@ -328,7 +339,47 @@
       <option name="project" value="LOCAL" />
       <updated>1704715721682</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="luchando cpon docker&#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;">
+      <option name="closed" value="true" />
+      <created>1704715788813</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1704715788813</updated>
+    </task>
+    <task id="LOCAL-00021" summary="luchando cpon docker&#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;">
+      <option name="closed" value="true" />
+      <created>1704715821061</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1704715821061</updated>
+    </task>
+    <task id="LOCAL-00022" summary="luchando cpon docker&#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;">
+      <option name="closed" value="true" />
+      <created>1704715894860</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1704715894860</updated>
+    </task>
+    <task id="LOCAL-00023" summary="ddd&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;">
+      <option name="closed" value="true" />
+      <created>1704715920669</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1704715920669</updated>
+    </task>
+    <task id="LOCAL-00024" summary="ddd&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;&#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;">
+      <option name="closed" value="true" />
+      <created>1704715999618</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1704715999618</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -369,7 +420,9 @@
     <MESSAGE value="ajustzazazando la fgd" />
     <MESSAGE value="luchando cpon docker" />
     <MESSAGE value="luchando cpon docker&#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="luchando cpon docker&#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;" />
+    <MESSAGE value="ddd&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;" />
+    <MESSAGE value="ddd&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;&#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="ddd&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;&#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
