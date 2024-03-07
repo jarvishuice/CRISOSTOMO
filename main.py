@@ -1,37 +1,22 @@
-
 from typing import Annotated
 from fastapi import FastAPI,Depends
 from fastapi.security import OAuth2PasswordBearer
 from fastapi.middleware.cors import CORSMiddleware
-from controllers.api.router.libros.librosRouter import Libros
-from controllers.api.router.category.categoryRouter import Categoria
-from controllers.api.router.autor.authorRouter import Autor
-from controllers.api.router.reaccion.reaccionRouter import Reaccion
-"""from controllers.api.router.Ordenes.OrdenesRouter import Ordenes
-from controllers.api.router.clientes.clientesRouter import Clientes
-from controllers.api.router.pedidos.pedidosRouter import Pedidos
-from controllers.api.router.wallet.walletRouter import Wallet
-from controllers.api.router.user.userRouter import usuarios
-from controllers.api.router.loggin.logginRouter import Loggin
-from controllers.api.router.pagos.PagosRouter import Pagos
-from controllers.api.router.pagos.pagosWalletRouter import PagosWallet
-from controllers.api.router.clientes.deudas.clientesDeudasRouter import DeudasClientes
-from controllers.api.router.productos.productosRouter import Productos
-from controllers.api.router.finance.tasaDollarRouter import TasaDollar
-from controllers.api.router.planDeCuentas.planDeCuentasRouter import PlanCuentas
-from controllers.api.router.reports.Inventario.reportInventarioRouter import InventarioReport
-from controllers.api.router.reports.coffeshop.preccierreRouter import ReportPrecierre
-from controllers.api.router.reports.coffeshop.cierreROUTER import ReportCierre
-from controllers.api.router.reports.coffeshop.cierreROUTERByFECHA import ReportCierreF
-from controllers.api.router.metrics.metricsRouter import Metric
-from controllers.api.router.visitas.visitantesRouter import Visitantes
-from controllers.api.router.visitas.visitasRouter import Visitas
-from controllers.api.router.espacios.espaciosRouter import ESPACIOS"""
+from uvicorn import Config
+
+from Router.Clientes.ClientesRouter import CLIENTES
+import uvicorn
+
+from Router.POS.POSRouter import POS
+from Router.Pagos.PagosRouter import PAGOS
+from Router.user.userRouter import USER
+from Router.Pagos.conceptosRouter import CONCEPTOS
+from Router.Finance.financeRouter import FINANCE
+from Router.Ordenes.ordenesRouter import ORDENES
+from Router.Productos.ProductosRouter import PRODUCTOS
+from Router.Ordenes.pedidosRouter import PEDIDOS
 origins = ["*"]
-autenticacion=OAuth2PasswordBearer(tokenUrl="token")
-
-
-app =FastAPI(title="Crisostomo ",version="1.0",openapi_url="/localhost",logger="info",logs_paths="/home/munay/MUNAYSYSTEM2.1DAO/APP/")
+app =FastAPI(title="Padel ",version="1.0",openapi_url="/localhost",logger="info",logs_paths="/home/munay/MUNAYSYSTEM2.1DAO/APP/")
 
 app.add_middleware(
     CORSMiddleware,
@@ -40,34 +25,19 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-app.include_router(Libros)
-app.include_router(Categoria)
-app.include_router(Autor)
-app.include_router(Reaccion)
-"""app.include_router(ESPACIOS)
-app.include_router(Visitantes)
-app.include_router(Visitas)
-app.include_router(Ordenes)
-app.include_router(Clientes)
-app.include_router(Pedidos)
-app.include_router(Wallet)
-app.include_router(usuarios)
-app.include_router(Loggin)
-app.include_router(Pagos)
-app.include_router(PagosWallet)
-app.include_router(DeudasClientes)
-app.include_router(Productos)
-app.include_router(TasaDollar)
-app.include_router(PlanCuentas)
-app.include_router(InventarioReport)
-app.include_router(ReportPrecierre)
-app.include_router(ReportCierre)
-app.include_router(ReportCierreF)
-app.include_router(Metric)
-@app.get("/MUNAY/nest/test")
+@app.get("/Padel/test")
 async def test():
     return True
-@app.get("/items/")
-async def readToken(token:Annotated[str,Depends(autenticacion)]):
-    return token    
-"""
+app.include_router(POS)
+app.include_router(PAGOS)
+app.include_router(PRODUCTOS)
+app.include_router(ORDENES)
+app.include_router(USER)
+app.include_router(CLIENTES)
+app.include_router(FINANCE)
+app.include_router(CONCEPTOS)
+app.include_router(PEDIDOS)
+if __name__ == '__main__':
+    configServer: Config = uvicorn.Config("main:app",port=8010,log_level="info",reload=False,host="0.0.0.0")
+    server = uvicorn.Server(configServer)
+    server.run()
