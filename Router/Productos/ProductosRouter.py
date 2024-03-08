@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
 
-from core.Entities.Productos.inventarioEntity import inventarioEntityOut
+from Core.Entities.Productos.inventarioEntity import inventarioEntityOut
 from services.productos.ProductosServices import ProductosEntity, ProductosServices,CategoriaEntity
 
 core =ProductosServices()

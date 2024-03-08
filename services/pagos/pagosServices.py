@@ -1,7 +1,7 @@
 from config.LOGS.LogsSystem import Logs
-from core.Entities.pagos.DetallePagosEntity import DetallesPagosEntity
-from core.Implements.pagos.PagosDAO import PagosDAO,PagosEntity,ResponseInternalEntity
-from core.Implements.pagos.detallesPagosDAO import DetallesPagosDAO
+from Core.Entities.pagos.DetallePagosEntity import DetallesPagosEntity
+from Core.Implements.pagos.PagosDAO import PagosDAO,PagosEntity,ResponseInternalEntity
+from Core.Implements.pagos.detallesPagosDAO import DetallesPagosDAO
 
 
 class PagosServices(Logs):

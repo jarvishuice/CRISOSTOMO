@@ -1,8 +1,8 @@
 import time
 
-from core.Implements.productos.productosDAO import ProductosDAO,Logs,ResponseInternalEntity,ProductosEntity
-from core.Implements.productos.inventarioDAO import InventarioDAO,InventarioEntity
-from core.Implements.productos.categoriaDAO import CategoriaDAO,CategoriaEntity
+from Core.Implements.productos.productosDAO import ProductosDAO,Logs,ResponseInternalEntity,ProductosEntity
+from Core.Implements.productos.inventarioDAO import InventarioDAO,InventarioEntity
+from Core.Implements.productos.categoriaDAO import CategoriaDAO,CategoriaEntity
 
 class ProductosServices(Logs):
 

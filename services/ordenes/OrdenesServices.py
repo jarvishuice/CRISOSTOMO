@@ -1,4 +1,4 @@
-from core.Implements.ordenes.ordenesDAO import OrdenesDAO,OrdenEntity,ResponseInternalEntity,Logs
+from Core.Implements.ordenes.ordenesDAO import OrdenesDAO,OrdenEntity,ResponseInternalEntity,Logs
 
 
 class OrdenesServices(Logs):

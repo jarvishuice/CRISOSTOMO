@@ -1,4 +1,4 @@
-from core.Implements.ordenes.PedidosDAO import PedidosDAO,PedidosEntity,ResponseInternalEntity,Logs
+from Core.Implements.ordenes.PedidosDAO import PedidosDAO,PedidosEntity,ResponseInternalEntity,Logs
 from services.productos.ProductosServices import ProductosServices
 class PedidosServices(Logs):
     def __init__(self):

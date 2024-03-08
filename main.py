@@ -16,7 +16,7 @@ from Router.Ordenes.ordenesRouter import ORDENES
 from Router.Productos.ProductosRouter import PRODUCTOS
 from Router.Ordenes.pedidosRouter import PEDIDOS
 origins = ["*"]
-app =FastAPI(title="Padel ",version="1.0",openapi_url="/localhost",logger="info",logs_paths="/home/munay/MUNAYSYSTEM2.1DAO/APP/")
+app =FastAPI(title="crisostomo ",version="1.0",openapi_url="/localhost",logger="info")
 
 app.add_middleware(
     CORSMiddleware,

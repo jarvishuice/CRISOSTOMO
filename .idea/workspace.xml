@@ -4,33 +4,92 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1643ecc9-ccb0-47f5-b22c-2ad2cbcaa915" name="Changes" comment="ddd&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;&#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;">
-      <change afterPath="$PROJECT_DIR$/core/Entities/Categorias/CategoriasEntity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/Entities/Editorial/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/Entities/Libros/LibroEntity.py" afterDir="false" />
+    <list default="true" id="1643ecc9-ccb0-47f5-b22c-2ad2cbcaa915" name="Changes" comment="agregando entidades del core &#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;">
+      <change afterPath="$PROJECT_DIR$/Core/Implements/Categoria/CategoriaDAO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/interface/Categorias/ICategorias.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/Operacion/OPeracionEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/Operacion/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/Entities/Autor/AutorEntity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/Productos/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/Entities/Categorias/SubCategoriaEntity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/Productos/almacenEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/Productos/categoriaEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/Productos/inventarioEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/Productos/productosEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/finance/BancoEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/finance/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/Entities/Categorias/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/finance/planDeCuentas.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/ordenes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/Entities/Descargas/DescargasEntity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/ordenes/ordenEnity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/ordenes/pedidoEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/pagos/DetallePagosEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/pagos/PagosEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/pagos/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/Entities/Descargas/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/pagos/conceptos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/persona/TipoPersonaEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/persona/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/Entities/Editorial/EditorialEntity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Entities/persona/personaEntity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qodana.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Router/Productos/ProductosRouter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Router/Productos/ProductosRouter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Router/user/userRouter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Router/user/userRouter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/Autor/AutorEntity.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/Autor/AutorEntity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/Autor/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/Autor/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/Categorias/CategoriasEntity.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/Categorias/CategoriasEntity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/Categorias/SubCategoriaEntity.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/Categorias/SubCategoriaEntity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/Categorias/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/Categorias/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/Descargas/DescargasEntity.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/Descargas/DescargasEntity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/Descargas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/Descargas/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/Editorial/EditorialEntity.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/Editorial/EditorialEntity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/Editorial/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/Editorial/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/Libros/LibroEntity.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/Libros/LibroEntity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/Libros/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/Libros/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/ResponseINternalEntity.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/ResponseINternalEntity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/users/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/users/loginEnity.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/users/loginEnity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/users/userEntity.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/users/userEntity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Implements/Personas/PersonasDAO.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Implements/Personas/PersonasDAO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Implements/Personas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Implements/Categoria/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Implements/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Implements/Personas/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Implements/finance/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Implements/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Implements/finance/banco/BancoDAO.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Implements/finance/banco/BancoDAO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Implements/finance/banco/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Implements/finance/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Implements/finance/planDeCuentas/PlanDeCuentasDAO.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Implements/finance/planDeCuentas/PlanDeCuentasDAO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Implements/finance/planDeCuentas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Implements/finance/banco/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Implements/ordenes/PedidosDAO.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Implements/ordenes/PedidosDAO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Implements/ordenes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Implements/finance/planDeCuentas/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Implements/ordenes/ordenesDAO.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Implements/ordenes/ordenesDAO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Implements/pagos/PagosDAO.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Implements/pagos/PagosDAO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Implements/pagos/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Implements/ordenes/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Implements/pagos/conceptos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Implements/pagos/conceptos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Implements/pagos/detallesPagosDAO.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Implements/pagos/detallesPagosDAO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Implements/productos/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Implements/pagos/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Implements/productos/categoriaDAO.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Implements/productos/categoriaDAO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Implements/productos/inventarioDAO.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Implements/productos/inventarioDAO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Implements/productos/productosDAO.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Implements/productos/productosDAO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Implements/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Implements/productos/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Implements/users/loginDAO.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Implements/users/loginDAO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Implements/users/userDAO.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Implements/users/userDAO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ROOM/ResponseInternal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ROOM/ResponseInternal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ROOM/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Implements/users/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ROOM/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/POS/IPOS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/POS/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/interface/Categorias/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/interface/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/config/dataBAse/ConectionDbInterface.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/interface/config/dataBAse/ConectionDbInterface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/config/dataBAse/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/interface/config/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/finance/Banco/IBAnco.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/finance/Banco/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/interface/config/dataBAse/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/finance/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/interface/users/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/finance/planDeCuentas/IPlanDeCuentas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/finance/planDeCuentas/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/ordenes/IOrdenes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/ordenes/Ipedidos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/ordenes/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/pagos/IConceptos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/pagos/IDetallesPagos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/pagos/IPagos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/pagos/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/personas/IPersona.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/personas/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/productos/IInventario.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/productos/IProductos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/productos/Icategoria.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/productos/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/users/ILogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/interface/users/ILogin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/users/Iuser.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/interface/users/Iuser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/interface/users/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/providers/Db/PostgresConection.py" beforeDir="false" afterPath="$PROJECT_DIR$/providers/Db/PostgresConection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/POS/POSServices.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/POS/POSServices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/clients/clientesServices.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/clients/clientesServices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/finance/financeServices.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/finance/financeServices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/ordenes/OrdenesServices.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/ordenes/OrdenesServices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/ordenes/pedidosServices.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/ordenes/pedidosServices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/pagos/conceptosServices.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/pagos/conceptosServices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/pagos/pagosServices.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/pagos/pagosServices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/productos/ProductosServices.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/productos/ProductosServices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/users/loginServices.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/loginServices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/users/userServices.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/users/userServices.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -502,7 +561,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709859241953</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="agregando entidades del core &#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;">
+      <option name="closed" value="true" />
+      <created>1709860869210</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1709860869210</updated>
+    </task>
+    <task id="LOCAL-00035" summary="agregando entidades del core &#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;">
+      <option name="closed" value="true" />
+      <created>1709860881521</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1709860881521</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -549,7 +624,8 @@
     <MESSAGE value="ddd&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;" />
     <MESSAGE value="agregando  el servicio para recibir como parametro el pdf&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;&#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;" />
     <MESSAGE value="ddd&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;&#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="ddd&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;&#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;" />
+    <MESSAGE value="agregando entidades del core &#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="agregando entidades del core &#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -560,7 +636,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/Implements/ordenes/ordenesDAO.py</url>
+          <url>file://$PROJECT_DIR$/Core/Implements/ordenes/ordenesDAO.py</url>
           <line>1</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -570,7 +646,7 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/core/Entities/libros/librosEntity.py</url>
+          <url>file://$PROJECT_DIR$/Core/Entities/libros/librosEntity.py</url>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>

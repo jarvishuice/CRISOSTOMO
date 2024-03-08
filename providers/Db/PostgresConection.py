@@ -1,7 +1,7 @@
 from typing_extensions import override
-from core.interface.config.dataBAse.ConectionDbInterface import ConectionDbInterface
+from Core.interface.config.dataBAse.ConectionDbInterface import ConectionDbInterface
 import psycopg2
-from core.ROOM.ResponseInternal import ResponseInternal,ResponseInternalEntity
+from Core.ROOM.ResponseInternal import ResponseInternal,ResponseInternalEntity
 from config.LOGS.LogsSystem import Logs
 from config.DB.datosConfig import CredentialDb
 

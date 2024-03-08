@@ -1,5 +1,5 @@
-from core.Entities.pagos.conceptos import ConceptosPagosEntity
-from core.Implements.pagos.conceptos import ConceptosDAO
+from Core.Entities.pagos.conceptos import ConceptosPagosEntity
+from Core.Implements.pagos.conceptos import ConceptosDAO
 
 
 class ConceptoServices:

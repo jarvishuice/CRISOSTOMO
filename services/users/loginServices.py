@@ -1,5 +1,5 @@
-from core.Entities.users.loginEnity import LoginEntity
-from core.Implements.users.loginDAO import LoginDAO
+from Core.Entities.users.loginEnity import LoginEntity
+from Core.Implements.users.loginDAO import LoginDAO
 class LoginServices:
     def __init__ (self) :
         self.__core = LoginDAO()

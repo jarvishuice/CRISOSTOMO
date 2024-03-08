@@ -1,4 +1,4 @@
-from core.Implements.Personas.PersonasDAO import ClientesDAO,PersonaEntity,ResponseInternalEntity
+from Core.Implements.Personas.PersonasDAO import ClientesDAO,PersonaEntity,ResponseInternalEntity
 class ClientesServices():
     def __init__(self):
         super().__init__()
