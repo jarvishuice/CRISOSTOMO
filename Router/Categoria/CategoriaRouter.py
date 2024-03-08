@@ -24,7 +24,7 @@ async def GetSubCategorias():
     return trigger.response
 @CATEGORIAS.get("/get/subcategoria/{idCategoria}")
 async def GetSubCategoriaByCategoria(idCategoria:int):
-    trigger = core.BuscarSubCategoriaByCategoria(idCategoria)
+    trigger = core.BuscarSubCategoriaByCategoria(int(idCategoria))
     if trigger.status == False:
-        raise HTTPException (400, trigger.message)
+        raise HTTPException(400, trigger.message)
     return trigger.response

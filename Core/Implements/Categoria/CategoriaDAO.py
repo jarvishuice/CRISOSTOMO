@@ -5,7 +5,6 @@ from Core.Entities.Categorias.CategoriasEntity import CategoriasEntity
 from providers.Db.PostgresConection import Psql,ResponseInternalEntity,Logs
 
 
-
 class CategoriasDAO(ICategorias,Psql,Logs):
 
 
@@ -142,15 +141,17 @@ class CategoriasDAO(ICategorias,Psql,Logs):
                                               message="Erro de conexion al servidor de base de datos",
                                               response=data)
             with self.conn.cursor() as cur:
-                cur.execute(f"select * from categorias where id ={id};")
+                cur.execute(f"select * from sub_categoria where id_categoria ={idCategoria};")
                 if cur.rowcount <=0:
                     self.Warnings("No se encontraron registros een la tabala categorias ")
                     return ResponseInternalEntity(status=True,
                                                   message="No se encontraron registro en la tabla categorias",
                                                   response=data)
                 for i in cur :
-                    data.append(CategoriasEntity(id=int(i[0]),
-                                                 nombre=i[1]))
+                    data.append (SubCategoriaEntity (idCategoria=int (i[ 0 ]),
+                                                     id=int (i[ 1 ]),
+                                                     nombre=i[ 2 ]
+                                                     ))
                 self.WirterTask("categorias leidas con exito ")
                 return ResponseInternalEntity(status= True,
                                               message= "Categorias leidas con exito",
