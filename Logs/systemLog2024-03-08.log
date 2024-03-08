@@ -1,0 +1,72 @@
+ [0;36m[2024-03-08 01:39:58.760328]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-08 01:39:58.778444]:[0;32mcategorias leidas con exito 
+ [0;36m[2024-03-08 01:39:58.779302]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-03-08 01:40:12.735977]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-08 01:40:12.740327]:[0;31m Error de base de datos  detail[error de sintaxis en o cerca de «in»
+LINE 1: select * from categorias where id =<built-in function id>;
+                                                  ^
+]
+ [0;36m[2024-03-08 01:40:12.740464]:[0;32merror de base de datos
+ [0;36m[2024-03-08 01:40:12.740768]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-03-08 01:41:51.862277]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-08 01:41:51.862979]:[0;31m Error de base de datos  detail[error de sintaxis en o cerca de «in»
+LINE 1: select * from sub_categoria where id =<built-in function id>...
+                                                     ^
+]
+ [0;36m[2024-03-08 01:41:51.863073]:[0;32merror de base de datos
+ [0;36m[2024-03-08 01:41:51.863377]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-03-08 01:42:11.752428]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-08 01:42:11.753153]:[0;31m Error de base de datos  detail[error de sintaxis en o cerca de «in»
+LINE 1: select * from sub_categoria where id =<built-in function id>...
+                                                     ^
+]
+ [0;36m[2024-03-08 01:42:11.753260]:[0;32merror de base de datos
+ [0;36m[2024-03-08 01:42:11.753607]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-03-08 01:44:21.084971]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-08 01:44:21.086221]:[0;31m Error de base de datos  detail[error de sintaxis en o cerca de «in»
+LINE 1: ...t * from sub_categoria where id_categoria =<built-in functio...
+                                                             ^
+]
+ [0;36m[2024-03-08 01:44:21.086352]:[0;32merror de base de datos
+ [0;36m[2024-03-08 01:44:21.086559]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-03-08 01:46:20.436786]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-08 01:46:20.438239]:[0;31m Error de base de datos  detail[error de sintaxis en o cerca de «in»
+LINE 1: ...t * from sub_categoria where id_categoria =<built-in functio...
+                                                             ^
+]
+ [0;36m[2024-03-08 01:46:20.438339]:[0;32merror de base de datos
+ [0;36m[2024-03-08 01:46:20.438598]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-03-08 01:46:31.737092]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-08 01:46:31.746359]:[0;32mcategorias leidas con exito 
+ [0;36m[2024-03-08 01:46:31.747471]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-03-08 01:47:19.672221]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-08 01:47:19.676348]:[0;31m Error de base de datos  detail[error de sintaxis en o cerca de «in»
+LINE 1: ...t * from sub_categoria where id_categoria =<built-in functio...
+                                                             ^
+]
+ [0;36m[2024-03-08 01:47:19.676460]:[0;32merror de base de datos
+ [0;36m[2024-03-08 01:47:19.676738]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-03-08 01:48:23.394921]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-08 01:48:23.396438]:[0;31m Error de base de datos  detail[error de sintaxis en o cerca de «in»
+LINE 1: ...t * from sub_categoria where id_categoria =<built-in functio...
+                                                             ^
+]
+ [0;36m[2024-03-08 01:48:23.396759]:[0;32merror de base de datos
+ [0;36m[2024-03-08 01:48:23.398479]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-03-08 01:48:33.237688]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-08 01:48:33.243756]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-03-08 01:49:32.377645]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-08 01:49:32.380018]:[0;32mcategorias leidas con exito 
+ [0;36m[2024-03-08 01:49:32.380320]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-03-08 01:50:02.110012]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-08 01:50:02.114195]:[0;32mcategorias leidas con exito 
+ [0;36m[2024-03-08 01:50:02.114546]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-03-08 01:50:29.861526]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-08 01:50:29.864568]:[0;32mcategorias leidas con exito 
+ [0;36m[2024-03-08 01:50:29.864835]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-03-08 01:50:40.866157]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-08 01:50:40.868820]:[0;32mcategorias leidas con exito 
+ [0;36m[2024-03-08 01:50:40.869261]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-03-08 01:50:56.725527]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-08 01:50:56.729222]:[0;32mcategorias leidas con exito 
+ [0;36m[2024-03-08 01:50:56.729496]:[0;32mDesconexión exitosa de la base de datos
