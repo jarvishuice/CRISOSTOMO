@@ -5,11 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1643ecc9-ccb0-47f5-b22c-2ad2cbcaa915" name="Changes" comment="ddd&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;&#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;">
-      <change afterPath="$PROJECT_DIR$/Document/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Entities/Categorias/CategoriasEntity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Entities/Editorial/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Entities/Libros/LibroEntity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Document/generadorTablas.md" beforeDir="false" afterPath="$PROJECT_DIR$/Document/generadorTablas.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Document/generadorTablas.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Document/generadorTablas.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Document/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/Operacion/OPeracionEntity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/Operacion/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/Entities/Autor/AutorEntity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/Productos/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/Entities/Categorias/SubCategoriaEntity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/Productos/almacenEntity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/Productos/categoriaEntity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/Productos/inventarioEntity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/Productos/productosEntity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/finance/BancoEntity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/finance/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/Entities/Categorias/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/finance/planDeCuentas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/ordenes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/Entities/Descargas/DescargasEntity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/ordenes/ordenEnity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/ordenes/pedidoEntity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/pagos/DetallePagosEntity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/pagos/PagosEntity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/pagos/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/Entities/Descargas/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/pagos/conceptos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/persona/TipoPersonaEntity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/persona/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/Entities/Editorial/EditorialEntity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Entities/persona/personaEntity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qodana.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -473,7 +494,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709822763675</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="ddd&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;&#10;&#10;Signed-off-by: jarvishuice &lt;jarvis.realg@gmal.com&gt;">
+      <option name="closed" value="true" />
+      <created>1709859241953</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1709859241953</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="UnknownFeatures">
