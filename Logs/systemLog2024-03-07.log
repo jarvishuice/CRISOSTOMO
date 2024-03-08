@@ -1,0 +1,40 @@
+ [0;36m[2024-03-07 22:32:51.658332]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-07 22:32:51.659224]:[0;31m Error de base de datos  detail[no existe la relación «sub_categoria»
+LINE 1: select * from sub_categoria
+                      ^
+]
+ [0;36m[2024-03-07 22:32:51.659314]:[0;32merror de base de datos
+ [0;36m[2024-03-07 22:32:51.659489]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-03-07 22:33:52.547310]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-07 22:33:52.548538]:[0;32mcategorias leidas con exito 
+ [0;36m[2024-03-07 22:33:52.548753]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-03-07 22:35:27.207000]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-07 22:35:27.208599]:[0;32mcategorias leidas con exito 
+ [0;36m[2024-03-07 22:35:27.208959]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-03-07 23:01:39.337676]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-07 23:01:39.338687]:[0;31m Error de base de datos  detail[error de sintaxis en o cerca de «{»
+LINE 1: select * from categorias where id ={id} 
+                                           ^
+]
+ [0;36m[2024-03-07 23:01:39.338816]:[0;32merror de base de datos
+ [0;36m[2024-03-07 23:01:39.339050]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-03-07 23:03:05.283143]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-07 23:03:05.283912]:[0;31m Error de base de datos  detail[error de sintaxis en o cerca de «{»
+LINE 1: select * from categorias where id ={id} 
+                                           ^
+]
+ [0;36m[2024-03-07 23:03:05.284022]:[0;32merror de base de datos
+ [0;36m[2024-03-07 23:03:05.284264]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-03-07 23:03:17.969263]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-07 23:03:17.973196]:[0;32mcategorias leidas con exito 
+ [0;36m[2024-03-07 23:03:17.974191]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-03-07 23:28:14.785163]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-07 23:28:14.792675]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-03-07 23:29:52.744564]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-07 23:29:52.748071]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-03-07 23:30:16.400382]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-07 23:30:16.403370]:[0;32mcategorias leidas con exito 
+ [0;36m[2024-03-07 23:30:16.403605]:[0;32mDesconexión exitosa de la base de datos
+ [0;36m[2024-03-07 23:31:55.058466]:[0;32mConexion realizada con exito
+ [0;36m[2024-03-07 23:31:55.062365]:[0;32mcategorias leidas con exito 
+ [0;36m[2024-03-07 23:31:55.062676]:[0;32mDesconexión exitosa de la base de datos

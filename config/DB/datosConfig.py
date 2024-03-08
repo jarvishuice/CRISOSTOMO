@@ -4,7 +4,7 @@ import os
 
 class CredentialDb() :
     __config: ConfigParser = configparser.ConfigParser()
-    __config.read("/home/jarvis/PycharmProjects/Padel/config/DB/config.ini")
+    __config.read("/home/jarvis/PycharmProjects/CRISOSTOMO/config/DB/config.ini")
     user = __config.get("POSTGRESQL", "user")
     port = __config.get("POSTGRESQL", 'port')
     db = __config.get("POSTGRESQL", 'data_base')

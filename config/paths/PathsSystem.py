@@ -10,8 +10,8 @@ class PathSystem:
     """
     config = configparser.ConfigParser()
     config.read('config.ini')
-    root = "/home/jarvis/PycharmProjects/Padel/"
-    logs = "/home/jarvis/PycharmProjects/Padel/Logs/"
+    root = "/home/jarvis/PycharmProjects/CRISOSTOMO/"
+    logs = "/home/jarvis/PycharmProjects/CRISOSTOMO/Logs/"
     assets = f'{root}/assets/'
     def __init__(self) -> object:
         pass
